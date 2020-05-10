@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application{
 	
-	Button button;
+	
 	
 	public static void main(String[] args) {
 		launch(args);
@@ -21,12 +21,16 @@ public class Main extends Application{
 
 	@Override
 	public void start(Stage primaryStage) throws Exception{
+		
 		primaryStage.setTitle("Farhad's Quiz");
+		
+		Button button;
 		button = new Button();
 		button.setText("A");
-		button.setPrefSize(300, 50);
+		button.setPrefSize(500, 100);
 		button.setTextAlignment(TextAlignment.LEFT);
-		
+		button.setLayoutX(100);
+		button.setLayoutY(400);
 		
 		Pane layout = new Pane();
 		layout.getChildren().add(button);
