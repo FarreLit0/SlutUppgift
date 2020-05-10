@@ -22,21 +22,19 @@ public class Main extends Application{
 	@Override
 	public void start(Stage primaryStage) throws Exception{
 		primaryStage.setTitle("Farhad's Quiz");
-		/*button = new Button();
+		button = new Button();
 		button.setText("A");
 		button.setPrefSize(300, 50);
-		button.setTextAlignment(TextAlignment.LEFT);*/
+		button.setTextAlignment(TextAlignment.LEFT);
 		
 		
-		Pane layout = (Pane) FXMLLoader.load(Main.class.getResource("Sample.fxml"));
+		Pane layout = new Pane();
 		layout.getChildren().add(button);
-		primaryStage.setScene(new Scene(layout));
-		primaryStage.show();
 		
-		/* Scene scene = new Scene(layout, 1440,720);
+		Scene scene = new Scene(layout, 1440,720);
 		primaryStage.setScene(scene);
 		primaryStage.show();
-		primaryStage.setResizable(false); */
+		primaryStage.setResizable(false);
 	}
 
 	/*@Override
