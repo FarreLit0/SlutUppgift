@@ -19,6 +19,15 @@ public class Sport implements EventHandler<ActionEvent>{
 			{"Kobe Bryant", "Michael Jordan", "Lebron James", "Bill Russel"}, 
 			{"Roger Federer", "Rafael Nadal", "novak djokovic", "Pete Sampras"}
 	};
+	
+	char[] correct = {
+			'B',
+			'D',
+			'D',
+			'A'
+	};
+	
+	
 
 	public Sport() {
 		
