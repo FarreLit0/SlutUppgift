@@ -27,7 +27,11 @@ public class Sport implements EventHandler<ActionEvent>{
 			'A'
 	};
 	
-	
+	char answer;
+	int index;
+	int total_questions = questions.length;
+	int result;
+	int timer = 30;
 
 	public Sport() {
 		
